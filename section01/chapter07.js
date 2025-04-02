@@ -25,13 +25,11 @@ num8++; //라인이 끝난 다음에 1추가 후위연산
 
 // 5. 논리 연산자
 let or = true || false;
-
 let and = true && false;
-
 let not = !true;
 
 // 6. 비교 연산자
-let comp1 = 1 === "1"; //=== 세번 쓰는 이유는 자료형 같은지?
+let comp1 = 1 === "1"; //=== 세번 쓰는 이유는 자료형 같은지까지 비교하기 위해서
 let comp2 = 1 !== 2;
 
 let comp3 = 2 > 1;
